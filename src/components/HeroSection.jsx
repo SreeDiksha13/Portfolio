@@ -23,7 +23,12 @@ const HeroSection = () => {
             into impact.
           </p>
           <div className=" pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+            <a
+              href="#projects"
+              className="px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium;
+  transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)];
+  hover:scale-105 active:scale-95"
+            >
               View My Work
             </a>
           </div>
